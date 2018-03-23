@@ -1,0 +1,4 @@
+PUT http://127.0.0.1:8500/v1/agent/service/register HTTP/1.1
+Content-Type: application/json
+
+{"name":"task-dispatch", "address": "10.65.193.52", "port": 9511}
